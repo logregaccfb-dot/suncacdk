@@ -1,0 +1,31 @@
+{
+  "name": "taixiu-ai-analyzer",
+  "version": "1.0.0",
+  "description": "Hệ thống phân tích và dự đoán Tài Xỉu với 84 mô hình thông minh (21 chính + 42 phụ + 21 mini)",
+  "main": "apisun.js",
+  "scripts": {
+    "start": "node apisun.js",
+    "dev": "nodemon apisun.js"
+  },
+  "keywords": [
+    "taixiu",
+    "ai",
+    "prediction",
+    "websocket",
+    "express",
+    "cors"
+  ],
+  "author": "@levidz2008",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^8.16.0",
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
